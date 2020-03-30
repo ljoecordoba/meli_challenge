@@ -1,0 +1,13 @@
+Instalar python
+Instalar mysql
+
+
+Instalar si es necesario la libreria requests:
+pip install requests
+
+Instalar la libreria dns para python:
+pip install dnspython
+
+Crear las tablas en mysql
+
+Cronear el proceso en el servidor(Schedule)
