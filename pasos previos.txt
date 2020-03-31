@@ -10,4 +10,3 @@ pip install dnspython
 
 Crear las tablas en mysql
 
-Cronear el proceso en el servidor(Schedule)

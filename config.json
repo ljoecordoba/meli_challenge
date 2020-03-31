@@ -2,6 +2,17 @@
     "user_db":"root",
     "password_db":"Aindamas_987",
     "host":"localhost",
-    "database":"best_sellers"
+    "database":"best_sellers",
+    "api_query": [
+     "https://api.mercadolibre.com/sites/MLA/search?q=“​Samsung%20Galaxy%20A20&limit=50&offset=0#json",
+     "https://api.mercadolibre.com/sites/MLA/search?q=“​Samsung%20Galaxy%20A20&limit=50&offset=49#json",
+     "https://api.mercadolibre.com/sites/MLA/search?q=“​Samsung%20Galaxy%20A20&limit=50&offset=99#json",
+     "https://api.mercadolibre.com/sites/MLA/search?q=“​Samsung%20Galaxy%20A20&limit=50&offset=149#json",
+     "https://api.mercadolibre.com/sites/MLA/search?q=“​Samsung%20Galaxy%20A20&limit=50&offset=199#json"
+    ],
+    "items_query": "https://api.mercadolibre.com/items?ids=",
+    "users_query": "https://api.mercadolibre.com/users?ids=",
+    "currency_conversion_query": "https://api.mercadolibre.com/currency_conversions/search?from=XXX&to=USD",
+    "currency_query": "https://api.mercadolibre.com/currencies"
     
 }
